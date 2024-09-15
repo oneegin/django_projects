@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-projects"
+version = "0.1.0"
+description = "Тестовый проект Django"
+authors = ["s.onegin"]
+license = "free"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+django = "^5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
